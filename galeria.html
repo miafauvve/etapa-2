@@ -1,31 +1,39 @@
-<?php $active = 'galeria'; ?>
 <!doctype html>
 <html lang="es">
 <head>
   <meta charset="utf-8" />
   <title>Galería de Fotos</title>
   <link rel="stylesheet" href="CSS/estilos.css" />
-   <link rel="stylesheet" href="CSS/carrousel.css" />
+  <link rel="stylesheet" href="CSS/carrousel.css" />
 </head>
 <body>
-  <?php include __DIR__ . '/partes/header.php'; ?>
+  <div id="header"> </div>
   <main>
     <h1>Galería de Fotos</h1>
     <div class="galeria">
-      <img src="img/OIP.webp" alt="Obra 1">
-      <img src="IMG/obra2.jpg" alt="Obra 2">
-   <div class="carousel">
-    <div class="slides">
-      <div class="slide"><img src="https://picsum.photos/id/1018/400/250" alt=""></div>
-      <div class="slide"><img src="https://picsum.photos/id/1015/400/250" alt=""></div>
-      <div class="slide"><img src="https://picsum.photos/id/1016/400/250" alt=""></div>
-    </div>
-    <button class="arrow left">&#10094;</button>
-    <button class="arrow right">&#10095;</button>
-  </div>
+      <div class="carousel">
+        <div class="slides">
+    <div class="slide"><img src="img/a1.webp" alt="Foto 1"></div>
+    <div class="slide"><img src="img/a2.webp" alt="Foto 2"></div>
+    <div class="slide"><img src="img/a3.webp" alt="Foto 3"></div>
+    <div class="slide"><img src="img/a4.jpg" alt="Foto 1"></div>
+    <div class="slide"><img src="img/a5.webp" alt="Foto 2"></div>
+    <div class="slide"><img src="img/a6.jpg" alt="Foto 3"></div>   
+    <div class="slide"><img src="img/a7.jpg" alt="Foto 1"></div>
+    <div class="slide"><img src="img/a8.jpg" alt="Foto 2"></div>
+    <div class="slide"><img src="img/a9.jpg" alt="Foto 3"></div>
+    <div class="slide"><img src="img/a10.jpg" alt="Foto 1"></div>
+    <div class="slide"><img src="img/a11.webp" alt="Foto 2"></div>
+    <div class="slide"><img src="img/a12.jpeg" alt="Foto 3"></div>
+        </div>
+        <button class="arrow left">&#10094;</button>
+        <button class="arrow right">&#10095;</button>
+      </div>
     </div>
   </main>
-  <?php include __DIR__ . '/partes/footer.php'; ?>
+    <div id="footer"> </div>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
   <script src="js/carrousel.js"></script>
 </body>
 </html>

@@ -1,5 +1,3 @@
-
-<?php $active = 'principales'; ?>
 <!doctype html>
 <html lang="es">
 <head>
@@ -9,7 +7,7 @@
   <meta name="description" content="Selección comentada de obras clave del Fauvismo con descripciones breves.">
 </head>
 <body>
-  <?php include __DIR__ . '/partes/header.php'; ?>
+ <div id="header"> </div>
   <main>
     <h1>Obras que definieron el Fauvismo</h1>
     <section class="obras-grid">
@@ -48,9 +46,11 @@
     </section>
     <!-- Opcional: botón para ver en galería -->
     <div style="text-align:center; margin: 40px 0;">
-      <a href="galeria.php" class="boton-galeria">Ver en galería</a>
+      <a href="galeria.html" class="boton-galeria">Ver en galería</a>
     </div>
   </main>
-  <?php include __DIR__ . '/partes/footer.php'; ?>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <div id="footer"> </div>
 </body>
 </html>

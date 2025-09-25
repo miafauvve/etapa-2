@@ -1,15 +1,31 @@
 
-<?php $active = 'historia'; ?>
 <!doctype html>
 <html lang="es">
 <head>
+  <body>
+  <!-- Barra de navegación -->
+  <header>
+    <h1>FAUVISMO</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="/etapa-2/index.html">INICIO</a></li>
+      <li><a href="/etapa-2/historia.html">HISTORIA</a></li>
+      <li><a href="/etapa-2/artistas.html">ARTISTAS Y OBRAS</a></li>
+      <li><a href="/etapa-2/principales.html">PRINCIPALES OBRAS</a></li>
+      <li><a href="/etapa-2/galeria.html">GALERÍA INTERACTIVA</a></li>
+      <li><a href="/etapa-2/contacto.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+  <!-- ...el resto de tu contenido... -->
+</body>
   <meta charset="utf-8" />
   <title>Historia del Fauvismo | Interfaz Visual</title>
   <link rel="stylesheet" href="CSS/estilos.css" />
   <meta name="description" content="Historia del Fauvismo: período 1904–1908, París, color puro y emoción como centro.">
 </head>
 <body>
-  <?php include __DIR__ . '/partes/header.php'; ?>
+    <div id="header"> </div>
   <main>
     <h1>Historia y contexto</h1>
 
@@ -61,6 +77,6 @@
       </ul>
     </aside>
   </main>
-  <?php include __DIR__ . '/partes/footer.php'; ?>
+   <div id="footer"> </div>
 </body>
 </html>
