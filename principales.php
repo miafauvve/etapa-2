@@ -1,0 +1,56 @@
+
+<?php $active = 'principales'; ?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Principales obras</title>
+  <link rel="stylesheet" href="CSS/estilos.css" />
+  <meta name="description" content="Selección comentada de obras clave del Fauvismo con descripciones breves.">
+</head>
+<body>
+  <?php include __DIR__ . '/partes/header.php'; ?>
+  <main>
+    <h1>Obras que definieron el Fauvismo</h1>
+    <section class="obras-grid">
+      <div class="obra-card" id="luxe">
+        <h2>Luxe, Calme et Volupté <span class="año">(1904)</span></h2>
+        <p><strong>Autor:</strong> Henri Matisse</p>
+        <p>Considerada punto de partida fauve: libertad cromática sobre puntillismo.</p>
+      </div>
+      <div class="obra-card" id="hat">
+        <h2>Woman with a Hat <span class="año">(1905)</span></h2>
+        <p><strong>Autor:</strong> Henri Matisse</p>
+        <p>Retrato célebre por sus colores “antinaturales”; escándalo en 1905.</p>
+      </div>
+      <div class="obra-card" id="collioure">
+        <h2>Paisajes en Collioure <span class="año">(1905)</span></h2>
+        <p><strong>Autor:</strong> André Derain</p>
+        <p>Color puro sin mezclar, pinceladas anchas.</p>
+      </div>
+      <div class="obra-card" id="charing">
+        <h2>Puente de Charing Cross <span class="año">(1906)</span></h2>
+        <p><strong>Autor:</strong> André Derain</p>
+      </div>
+      <div class="obra-card" id="estaque">
+        <h2>Casas en L’Estaque <span class="año">(1908)</span></h2>
+        <p><strong>Autor:</strong> Georges Braque</p>
+        <p>Obra de transición hacia el cubismo.</p>
+      </div>
+      <div class="obra-card" id="alegria">
+        <h2>La alegría de vivir <span class="año">(1905–06)</span></h2>
+        <p><strong>Autor:</strong> Henri Matisse</p>
+      </div>
+      <div class="obra-card" id="danza">
+        <h2>La danza <span class="año">(1909–10)</span></h2>
+        <p><strong>Autor:</strong> Henri Matisse</p>
+      </div>
+    </section>
+    <!-- Opcional: botón para ver en galería -->
+    <div style="text-align:center; margin: 40px 0;">
+      <a href="galeria.php" class="boton-galeria">Ver en galería</a>
+    </div>
+  </main>
+  <?php include __DIR__ . '/partes/footer.php'; ?>
+</body>
+</html>

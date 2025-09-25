@@ -1,0 +1,56 @@
+
+<?php $active = 'artistas'; ?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Artistas y obras | Interfaz Visual</title>
+  <link rel="stylesheet" href="CSS/estilos.css" />
+  <meta name="description" content="Biografías breves de Matisse, Derain, Braque y Rouault con sus obras más influyentes.">
+</head>
+<body>
+  <?php include __DIR__ . '/partes/header.php'; ?>
+  <main>
+    <h1>Artistas clave del Fauvismo</h1>
+    <section class="artistas-grid">
+      <div class="artista-card">
+        <h2>Henri Matisse <span class="años">(1869–1954)</span></h2>
+        <p>Figura central; eleva el color como lenguaje expresivo.</p>
+        <ul>
+          <li><a href="principales.php#luxe">Luxe, Calme et Volupté (1904)</a></li>
+          <li><a href="principales.php#hat">Woman with a Hat (1905)</a></li>
+          <li><a href="principales.php#alegria">La alegría de vivir (1906)</a></li>
+          <li><a href="principales.php#danza">La danza (1910)</a></li>
+        </ul>
+      </div>
+      <div class="artista-card">
+        <h2>André Derain <span class="años">(1880–1954)</span></h2>
+        <p>Co-fundador; paisajes de Collioure, pincelada ancha y color sin mezclar.</p>
+        <ul>
+          <li><a href="principales.php#collioure">Paisaje en Collioure (1905)</a></li>
+          <li><a href="principales.php#charing">Puente de Charing Cross (1906)</a></li>
+          <li><a href="principales.php#londres">El puerto de Londres (1906)</a></li>
+        </ul>
+      </div>
+      <div class="artista-card">
+        <h2>Georges Braque <span class="años">(1882–1963)</span></h2>
+        <p>Etapa fauve breve; transición hacia geometrías que anticipan el cubismo.</p>
+        <ul>
+          <li><a href="principales.php#estaque">Casas en L’Estaque (1908)</a></li>
+          <li><a href="principales.php#ciotat">El puerto de La Ciotat (1907)</a></li>
+        </ul>
+      </div>
+      <div class="artista-card">
+        <h2>Georges Rouault <span class="años">(1871–1958)</span></h2>
+        <p>Intenso dramatismo, contornos oscuros, temas morales y religiosos.</p>
+        <ul>
+          <li><a href="principales.php#cristo">Cristo ultrajado por los soldados (1924)</a></li>
+          <li><a href="principales.php#juez">El juez (1936)</a></li>
+          <li><a href="principales.php#payaso">El payaso triste (1907)</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <?php include __DIR__ . '/partes/footer.php'; ?>
+</body>
+</html>
